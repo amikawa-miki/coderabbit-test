@@ -264,6 +264,125 @@
       </div>
     </section>
 
+    <!-- Company Info & Map Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-4">アクセス</h2>
+          <p class="text-xl text-gray-600">お気軽にお越しください</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <!-- Company Information -->
+          <div class="space-y-6">
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+              <h3 class="text-2xl font-bold mb-6 text-gray-900">会社情報</h3>
+              
+              <div class="space-y-4">
+                <div class="flex items-start">
+                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 mb-1">会社名</h4>
+                    <p class="text-gray-600">株式会社YourBrand</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                    <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 mb-1">住所</h4>
+                    <p class="text-gray-600">〒100-0001<br />東京都千代田区千代田1-1-1<br />YourBrandビル 5F</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 mb-1">電話</h4>
+                    <p class="text-gray-600">03-1234-5678</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                    <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 mb-1">メール</h4>
+                    <p class="text-gray-600">info@yourbrand.co.jp</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                    <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 mb-1">営業時間</h4>
+                    <p class="text-gray-600">平日 9:00 - 18:00<br />（土日祝日は休業）</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="space-y-6">
+            <div class="bg-white p-4 rounded-xl shadow-lg">
+              <div class="aspect-[4/3] w-full rounded-lg overflow-hidden">
+                <!-- Google Maps Embed -->
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853576108!2d139.75309931525888!3d35.68123548019392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp"
+                  width="100%" 
+                  height="100%" 
+                  style="border:0;" 
+                  allowfullscreen
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="rounded-lg"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-xl">
+              <h4 class="font-bold text-lg mb-3 text-gray-900">アクセス方法</h4>
+              <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <span class="text-blue-600 mr-2">●</span>
+                  <span>東京駅から徒歩5分</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-blue-600 mr-2">●</span>
+                  <span>大手町駅 C1出口直結</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-blue-600 mr-2">●</span>
+                  <span>駐車場：ビル地下1階（有料）</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
       <div class="container mx-auto px-6">
