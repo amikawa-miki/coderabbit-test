@@ -6,7 +6,7 @@
       <nav class="container mx-auto px-6 py-6">
         <div class="flex items-center justify-between">
           <div class="text-2xl font-bold gradient-text">
-            YourBrand
+            YourBrand❤️
           </div>
           <div class="hidden md:flex space-x-8">
             <a href="#features" class="text-gray-600 hover:text-blue-600 transition">機能</a>
